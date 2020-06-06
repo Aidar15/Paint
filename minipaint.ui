@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>610</width>
+    <height>582</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="tabletTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>610</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionClose"/>
+    <addaction name="actionSave"/>
+   </widget>
+   <widget class="QMenu" name="menuBrush_Size">
+    <property name="title">
+     <string>Pen</string>
+    </property>
+    <addaction name="action3px"/>
+    <addaction name="action5px"/>
+    <addaction name="action7px"/>
+    <addaction name="action9px"/>
+   </widget>
+   <widget class="QMenu" name="menuBrush_Color">
+    <property name="title">
+     <string>Brush Color</string>
+    </property>
+    <addaction name="actionOpen_Pallete"/>
+   </widget>
+   <widget class="QMenu" name="menuPaper_Color">
+    <property name="title">
+     <string>Paper Color</string>
+    </property>
+    <addaction name="actionBlack"/>
+    <addaction name="actionGray"/>
+    <addaction name="actionRed"/>
+    <addaction name="actionYellow"/>
+    <addaction name="actionBlue"/>
+    <addaction name="actionGreen"/>
+    <addaction name="actionWhite"/>
+   </widget>
+   <widget class="QMenu" name="menuInstruments">
+    <property name="title">
+     <string>Eraser</string>
+    </property>
+    <addaction name="action3px_2"/>
+    <addaction name="action5px_2"/>
+    <addaction name="action7px_2"/>
+    <addaction name="action9px_2"/>
+    <addaction name="action11px"/>
+    <addaction name="action15px"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuBrush_Size"/>
+   <addaction name="menuInstruments"/>
+   <addaction name="menuBrush_Color"/>
+   <addaction name="menuPaper_Color"/>
+  </widget>
+  <action name="actionClose">
+   <property name="text">
+    <string>Clear</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionUndo_Typing">
+   <property name="text">
+    <string>Undo Typing</string>
+   </property>
+  </action>
+  <action name="actionRedo">
+   <property name="text">
+    <string>Redo</string>
+   </property>
+  </action>
+  <action name="action3px">
+   <property name="text">
+    <string>3px</string>
+   </property>
+  </action>
+  <action name="action5px">
+   <property name="text">
+    <string>5px</string>
+   </property>
+  </action>
+  <action name="action7px">
+   <property name="text">
+    <string>7px</string>
+   </property>
+  </action>
+  <action name="action9px">
+   <property name="text">
+    <string>9px</string>
+   </property>
+  </action>
+  <action name="actionBlack">
+   <property name="text">
+    <string>Black</string>
+   </property>
+  </action>
+  <action name="actionRed">
+   <property name="text">
+    <string>Red</string>
+   </property>
+  </action>
+  <action name="actionYellow">
+   <property name="text">
+    <string>Yellow</string>
+   </property>
+  </action>
+  <action name="actionBlue">
+   <property name="text">
+    <string>Blue</string>
+   </property>
+  </action>
+  <action name="actionGreen">
+   <property name="text">
+    <string>Green</string>
+   </property>
+  </action>
+  <action name="actionGray">
+   <property name="text">
+    <string>Gray</string>
+   </property>
+  </action>
+  <action name="actionOpen_Pallete">
+   <property name="text">
+    <string>Open Pallete</string>
+   </property>
+  </action>
+  <action name="action3px_2">
+   <property name="text">
+    <string>3px</string>
+   </property>
+  </action>
+  <action name="action5px_2">
+   <property name="text">
+    <string>5px</string>
+   </property>
+  </action>
+  <action name="action7px_2">
+   <property name="text">
+    <string>7px</string>
+   </property>
+  </action>
+  <action name="action9px_2">
+   <property name="text">
+    <string>9px</string>
+   </property>
+  </action>
+  <action name="action11px">
+   <property name="text">
+    <string>11px</string>
+   </property>
+  </action>
+  <action name="action15px">
+   <property name="text">
+    <string>15px</string>
+   </property>
+  </action>
+  <action name="actionPlay_Go">
+   <property name="text">
+    <string>Play_Go</string>
+   </property>
+  </action>
+  <action name="actionRectengle">
+   <property name="text">
+    <string>
+Rectangle</string>
+   </property>
+  </action>
+  <action name="actionCircle">
+   <property name="text">
+    <string>Circle</string>
+   </property>
+  </action>
+  <action name="actionSquare">
+   <property name="text">
+    <string>Square</string>
+   </property>
+  </action>
+  <action name="actionVertical_line">
+   <property name="text">
+    <string>Vertical Line</string>
+   </property>
+  </action>
+  <action name="actionHorizontal_Line">
+   <property name="text">
+    <string>Horizontal Line</string>
+   </property>
+  </action>
+  <action name="actionopen">
+   <property name="text">
+    <string>open</string>
+   </property>
+  </action>
+  <action name="actionWhite">
+   <property name="text">
+    <string>White</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
